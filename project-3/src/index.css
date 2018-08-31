@@ -1,0 +1,170 @@
+body,
+html {
+  height: 100%;
+};
+
+/* Heading Styles */
+h1 { 
+  font-family: "Merriweather";
+  font-size: 24px;
+  color: #68160e;
+};
+
+h2 {
+  font-family: "Comfortaa";
+  font-size: 18px;
+};
+
+h3 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-size: 14px;
+  color: #68160e;
+}
+/* Body Content */
+body {
+  font-family: "Merriweather";
+  font-size: 14px;
+  letter-spacing:  19px;
+  margin: 0;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+};
+
+body .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+};
+
+body #root {
+  background: #2e043f;
+  /* min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  z-index: -1; */
+};
+
+.content {
+  background-color: #dcddd2;
+};
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+};
+
+/* NavMenu */
+.navLinks {
+  margin-top: -20px;
+  width: 100%;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.navLinks a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 1.3em;
+  -webkit-text-decoration: uppercase;
+          text-decoration: uppercase;
+  -webkit-animation: bounceIn 3s;
+          animation: bounceIn 3s;
+}
+
+
+/* Card Styling */
+main section#card {
+  background: #2e043f;
+  color: ghostwhite;
+  margin: .7em auto;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  padding: 10px;
+}
+
+main section#card h2 {
+  margin: 1em auto;
+  text-align: center;
+  margin-bottom: 0;
+  -webkit-animation: bounceIn 4s;
+          animation: bounceIn 4s;
+  font-size: 1.3em;
+}
+
+main p {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+
+section#primary {
+  color: black;
+  padding: 15px;
+  text-align: center;
+}
+
+section#primary p {
+  font-size: 1.4em;
+}
+
+section#primary a {
+  color: #2e043f;
+  border-radius: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #2e043f;
+  display: block;
+  text-align: center;
+  margin: 50px auto 0 auto;
+  padding: 15px;
+}
+
+
+footer {
+  background-color: #2e043f;
+}
+
+/* Header Animation */
+@-webkit-keyframes bounceIn {
+  0% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes bounceIn {
+  0% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*# sourceMappingURL=main.css.map */

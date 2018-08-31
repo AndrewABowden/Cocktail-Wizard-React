@@ -1,0 +1,9 @@
+images: 
+https://unsplash.com/search/photos/cocktail
+
+icon: 
+https://thenounproject.com/search/?q=cocktail&i=1476371
+
+fonts:
+https://fonts.google.com/specimen/Merriweather?selection.family=Merriweather
+https://fonts.google.com/specimen/Comfortaa?selection.family=Comfortaa
